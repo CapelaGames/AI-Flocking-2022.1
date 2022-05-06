@@ -7,7 +7,7 @@ public class Flock : MonoBehaviour
     public FlockAgent agentPrefab;
     public List<FlockAgent> agents;// = new List<FlockAgent>();
 
-    public FlockBehaviour behavior;
+    //public FlockBehaviour behavior;
 
     [Range(10, 500)]
     public int startingCount = 250;
@@ -25,7 +25,7 @@ public class Flock : MonoBehaviour
     float _squareMaxSpeed;
     float _squareNeighborRadius;
     float _squareAvoidanceRadius;
-
-
-
 }
+
+
+
