@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -237,6 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agentPrefab: {fileID: 4980634280704479091, guid: 9ca7fa6a116f80e409f0fb9918c23bfa, type: 3}
   agents: []
+  behaviour: {fileID: 11400000, guid: bcffc1cdc33d5d04dbc65d6b180c49a5, type: 2}
   startingCount: 250
   agentDensity: 0.08
   driveFactor: 10
