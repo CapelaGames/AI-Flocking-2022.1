@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Flock/Behaviour/Steered Cohesion")]
 public class SteeredCohesionBehaviour : CohesionBehaviour
 {
-    private Vector2 currentVelocity;
+    private Vector2 currentVelocity = Vector2.zero;
     public float agentSmoothTime = 0.5f;
 
     public override Vector2 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock)

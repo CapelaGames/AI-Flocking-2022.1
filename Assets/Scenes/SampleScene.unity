@@ -242,8 +242,8 @@ MonoBehaviour:
   agentDensity: 0.08
   driveFactor: 10
   maxSpeed: 5
-  neighbourRadius: 1.5
-  avoidanceRadiusMultiplier: 1
+  neighbourRadius: 3
+  avoidanceRadiusMultiplier: 0.8
 --- !u!4 &865232961
 Transform:
   m_ObjectHideFlags: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agentPrefab: {fileID: 2979245150330133976, guid: 3df0297f9b8001d4e8bb6e8c4d4e2214, type: 3}
   agents: []
-  behavior: {fileID: 11400000, guid: bcffc1cdc33d5d04dbc65d6b180c49a5, type: 2}
+  behavior: {fileID: 11400000, guid: b53f45da52912154f9e1f80d4dd458c1, type: 2}
   startingCount: 150
   agentDensity: 0.08
   driveFactor: 10

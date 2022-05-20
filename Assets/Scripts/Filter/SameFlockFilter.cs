@@ -19,7 +19,6 @@ public class SameFlockFilter : ContextFilter
                 {
                     filtered.Add(item);
                 }
-
             }
         }
 
