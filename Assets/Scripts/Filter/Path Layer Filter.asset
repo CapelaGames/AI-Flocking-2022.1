@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d532f855457275b40a096cbb8239fda9, type: 3}
-  m_Name: Steered Cohesion Behaviour
+  m_Script: {fileID: 11500000, guid: ff1b888d3ec37954a9864ba2e2fd4b71, type: 3}
+  m_Name: Path Layer Filter
   m_EditorClassIdentifier: 
-  filter: {fileID: 11400000, guid: 1ee002d2a2f2f3b438b9190acdd151f9, type: 2}
-  agentSmoothTime: 0.5
+  mask:
+    serializedVersion: 2
+    m_Bits: 64
