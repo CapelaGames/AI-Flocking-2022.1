@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c183645e93aa047b359445e7fda9e5, type: 3}
   m_Name: Wander
   m_EditorClassIdentifier: 
-  filter: {fileID: 0}
+  filter: {fileID: 11400000, guid: e4bcccd4c275e5b4fa0a1f717144df6f, type: 2}
